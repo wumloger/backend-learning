@@ -23,4 +23,33 @@
         <constructor-arg name="bookName" value="水浒传"/>
         <constructor-arg name="bookPrice" value="100.5"/>
     </bean>
+
+    <bean id="clothes" class="top.wuml.spring.ioc.Clothes">
+        <constructor-arg name="color" value="蓝色"/>
+        <constructor-arg name="style" value="衬衫"/>
+    </bean>
+    <bean id="person" class="top.wuml.spring.ioc.Person">
+        <property name="clothes" ref="clothes"/>
+        <property name="name" value="小明"/>
+    </bean>
+
+    <bean id="p1" class="top.wuml.spring.ioc.Pen">
+        <property name="name" value="铅笔"/>
+    </bean>
+    <bean id="p2" class="top.wuml.spring.ioc.Pen">
+        <property name="name" value="圆珠笔"/>
+    </bean>
+    <bean id="p3" class="top.wuml.spring.ioc.Pen">
+        <property name="name" value="钢笔"/>
+    </bean>
+    <bean id="schoolBag" class="top.wuml.spring.ioc.SchoolBag">
+       <property name="color" value="blue"/>
+        <property name="pencilCase">
+            <list>
+                <ref bean="p1"/>
+                <ref bean="p2"/>
+                <ref bean="p3"/>
+            </list>
+        </property>
+    </bean>
 </beans>

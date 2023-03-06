@@ -1,4 +1,4 @@
-package top.wuml.spring.ioc;
+package top.wuml.spring.ioc.entity;
 
 public interface UserService {
     void say();

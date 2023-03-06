@@ -1,13 +1,13 @@
-package top.wuml.spring.ioc;
+package top.wuml.spring.ioc.entity;
 
-public class Dog {
+public class Cat {
     private String name;
     private int age;
 
-    public Dog() {
+    public Cat() {
     }
 
-    public Dog(String name, int age) {
+    public Cat(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -18,7 +18,7 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "Dog{" +
+        return "Cat{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';

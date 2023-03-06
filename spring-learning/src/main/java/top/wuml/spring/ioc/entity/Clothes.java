@@ -1,4 +1,4 @@
-package top.wuml.spring.ioc;
+package top.wuml.spring.ioc.entity;
 
 public class Clothes {
     private String style;

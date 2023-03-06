@@ -1,4 +1,4 @@
-package top.wuml.spring.ioc;
+package top.wuml.spring.ioc.entity;
 
 import org.springframework.beans.factory.annotation.Value;
 

@@ -1,12 +1,13 @@
-package top.wuml.spring.ioc;
+package top.wuml.spring.ioc.instance.factory;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import top.wuml.spring.ioc.constructor.Bean1;
 
-public class ClothesTest {
+public class InstanceTest3 {
     public static void main(String[] args) {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        Person person = ctx.getBean("person", Person.class);
-        System.out.println(person);
+        Bean3 bean3 = ctx.getBean("bean3", Bean3.class);
+        System.out.println(bean3);
     }
 }

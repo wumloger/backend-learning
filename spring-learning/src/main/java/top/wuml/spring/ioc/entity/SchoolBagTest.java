@@ -1,14 +1,12 @@
-package top.wuml.spring.ioc;
+package top.wuml.spring.ioc.entity;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class AnimalTest {
+public class SchoolBagTest {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        Dog dog = (Dog) context.getBean("dog");
-        Cat cat = (Cat) context.getBean("cat");
-        System.out.println(dog.toString());
-        System.out.println(cat.toString());
+        SchoolBag schoolBag = context.getBean("schoolBag", SchoolBag.class);
+        System.out.println(schoolBag);
     }
 }

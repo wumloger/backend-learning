@@ -1,12 +1,14 @@
-package top.wuml.spring.ioc;
+package top.wuml.spring.ioc.entity;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class SetterDITest {
+public class BookTest {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        UserService userService = (UserService) context.getBean("userService");
-        userService.say();
+        Book book = (Book) context.getBean("book");
+        Book bookByConstructor = (Book) context.getBean("bookByConstructor");
+        System.out.println(book);
+        System.out.println(bookByConstructor);
     }
 }

@@ -3,9 +3,24 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
-<bean id="userDao" class="top.wuml.spring.ioc.UserDaoImpl"></bean>
+    <bean id="userDao" class="top.wuml.spring.ioc.UserDaoImpl"></bean>
     <bean id="userService" class="top.wuml.spring.ioc.UserServiceImpl">
         <property name="userDao" ref="userDao"/>
         <property name="hello" value="hello"/>
+    </bean>
+    <bean id="cat" class="top.wuml.spring.ioc.Cat">
+        <constructor-arg name="name" value="miao~miao~"></constructor-arg>
+        <constructor-arg name="age" value="3"></constructor-arg>
+    </bean>
+
+    <bean id="dog" class="top.wuml.spring.ioc.Dog">
+        <constructor-arg name="name" value="wang~wang~"></constructor-arg>
+        <constructor-arg name="age" value="2"></constructor-arg>
+    </bean>
+    <bean id="book" class="top.wuml.spring.ioc.Book"></bean>
+    <bean id="bookByConstructor" class="top.wuml.spring.ioc.Book">
+        <constructor-arg name="bookId" value="1"/>
+        <constructor-arg name="bookName" value="水浒传"/>
+        <constructor-arg name="bookPrice" value="100.5"/>
     </bean>
 </beans>

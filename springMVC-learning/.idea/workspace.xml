@@ -9,16 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b420bc74-4af8-4b1c-8298-d7793e363300" name="变更" comment="2023-3-7 springMVC">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FreemarkerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SpringCandoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Func.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/func.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/test.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springMVC_learning_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/springMVC_learning_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/FirstController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc-config.xml" afterDir="false" />
+    <list default="true" id="b420bc74-4af8-4b1c-8298-d7793e363300" name="变更" comment="2023-3-8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +192,8 @@
       <workItem from="1678250731208" duration="187000" />
       <workItem from="1678250946538" duration="43000" />
       <workItem from="1678261665656" duration="10169000" />
+      <workItem from="1678284070505" duration="384000" />
+      <workItem from="1678687570235" duration="884000" />
     </task>
     <task id="LOCAL-00001" summary="2023-3-7 springMVC">
       <created>1678194495932</created>
@@ -208,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678194495932</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2023-3-8 freemarker整合">
+      <created>1678284130232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678284130232</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2023-3-8">
+      <created>1678284161136</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678284161136</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +235,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2023-3-7 springMVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-3-7 springMVC" />
+    <MESSAGE value="2023-3-8 freemarker整合" />
+    <MESSAGE value="2023-3-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-3-8" />
   </component>
 </project>
